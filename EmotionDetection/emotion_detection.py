@@ -23,6 +23,6 @@ def emotion_detector(text_to_analyze):
             "fear": None,
             "joy": None,
             "sadness": None,
-            "dominant_emotion": None
+            "dominant_emotion": "Invalid text! Please try again!"
         }
     return emotions
